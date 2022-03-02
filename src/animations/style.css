@@ -1,0 +1,189 @@
+body {
+background: #0c0202;
+float: inline-start;
+position: inherit;
+text-align: center;
+color: white;
+text-decoration: none;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+line-height: 23px;
+margin-top: 50px;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+#pfp {
+    border-radius: 100%;
+}
+#none {
+    margin: 30px;
+}
+i {
+    font-size: 100px;
+}
+h1 {
+text-align: center;
+text-shadow: transparent;
+color: rgb(252, 249, 249);
+font-family: courier;
+font-size: 150%;
+position: relative;
+border-left: 0px solid rgb(255, 255, 255);
+padding: 30px;
+margin: 50px;
+background-color: rgb(204, 32, 75);
+}
+.container {
+font-family: 'Courier New', Courier, monospace;
+font-size: 150%;
+top: 50%;
+left: 50%;
+}
+.container2 {
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 120%;
+ top: 50%;
+}
+.heading h1{
+text-align: center;
+font-size: 15px !important;
+border: 1px inset #7015e7;
+padding: 10px;
+margin: 20px;
+background-color: #7015e7!important;
+}
+.title {
+line-height: 40px !important;
+margin-bottom: -2px !important;
+font-size: 16px !important
+}
+.subtitle {
+color: rgba(255, 255, 255, 0.994) !important;
+font-size: 15px !important;
+font-family: 'Courier New', Courier, monospace;
+}
+.button {
+color: rgb(14, 205, 238);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(14, 205, 238);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+width: 20px;
+text-transform: uppercase;
+cursor: pointer;
+transition: 1.5s;
+}
+.note {
+color: rgb(15, 157, 252);
+text-decoration: underline;
+
+}
+.button2 {
+color: rgb(230, 109, 28);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(230, 109, 28);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+width: 20px;
+padding: 5px;
+margin: 10px;
+text-transform: uppercase;
+cursor: pointer;
+transition: 1.5s;
+}
+.button3 {
+color: rgb(238, 167, 14);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(238, 167, 14);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+width: 20px;
+padding: 5px;
+margin: 10px;
+text-transform: uppercase;
+cursor: pointer;
+transition: 1.5s;
+}
+.button4 {
+color: rgb(89, 240, 51);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(89, 240, 51);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+width: 20px;
+padding: 5px;
+margin: 10px;
+text-transform: uppercase;
+cursor: pointer;
+transition: 1.5s;
+}
+.button5 {
+color: rgb(238, 14, 126);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(238, 14, 126);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+width: 20px;
+padding: 5px;
+margin: 10px;
+text-transform: uppercase;
+cursor: pointer;
+transition: 1.5s;
+}
+#clickable {
+color: rgb(158, 0, 250);
+border-radius: 30px;
+line-height: 3;
+border: 1px solid rgb(162, 0, 255);
+padding: 5px;
+margin: 10px;
+position: relative;
+text-align: center;
+width: 20px;
+padding: 5px;
+margin: 10px;
+text-transform: uppercase;
+cursor: pointer;
+transition: 1.5s;
+}
+.button:hover {
+box-shadow: 0 5px 30px 0 #00e1ff inset,  0 5px 30px 0 #00e1ff inset, 
+            0 5px 30px 0 #00e1ff inset,  0 5px 30px 0 #00e1ff inset; 
+}
+.button2:hover {
+box-shadow: 0 5px 30px 0 #fc9b5a inset,  0 5px 30px 0 #fc9b5a inset, 
+            0 5px 30px 0 #fc9b5a inset,  0 5px 30px 0 #fc9b5a inset; 
+}
+.button3:hover {
+box-shadow: 0 5px 30px 0 #f7ee73 inset,  0 5px 30px 0 #f7ee73 inset, 
+            0 5px 30px 0 #f7ee73 inset,  0 5px 30px 0 #f7ee73 inset; 
+
+}
+#clickable:hover {
+box-shadow: 0 5px 30px 0 rgb(162, 0, 255) inset,  0 5px 30px 0 rgb(162, 0, 255) inset, 
+            0 5px 30px 0 rgb(162, 0, 255) inset, 0 5px 30px 0 rgb(162, 0, 255) inset; 
+}
+.footer {
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-size: 120%;
+position: relative;
+}
+
