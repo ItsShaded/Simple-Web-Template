@@ -1,2 +1,2 @@
 # personal web page
-## website link: https://ItsShaded.git.io/repository
+## website link: https://ItsShaded.git.io
