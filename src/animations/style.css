@@ -46,6 +46,11 @@ left: 50%;
  font-size: 120%;
  top: 50%;
 }
+.container3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 140%;
+    top: 50%;
+   }
 .heading h1{
 text-align: center;
 font-size: 15px !important;
@@ -132,6 +137,23 @@ text-transform: uppercase;
 cursor: pointer;
 transition: 1.5s;
 }
+
+#clickable2 {
+    color: rgb(158, 0, 250);
+    border-radius: 30px;
+    line-height: 4;
+    border: 1px solid rgb(162, 0, 255);
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    width: 20px;
+    padding: 5px;
+    margin: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1.5s;
+    }
 .button:hover {
 box-shadow: 0 5px 30px 0 #00e1ff inset,  0 5px 30px 0 #00e1ff inset, 
             0 5px 30px 0 #00e1ff inset,  0 5px 30px 0 #00e1ff inset; 
@@ -155,4 +177,5 @@ font-family: 'Courier New', Courier, monospace;
 font-size: 120%;
 position: relative;
 }
+
 
