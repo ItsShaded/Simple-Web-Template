@@ -79,7 +79,7 @@ cursor: pointer;
 transition: 1.5s;
 }
 .note {
-color: rgb(15, 157, 252);
+color: rgb(15, 224, 252);
 text-decoration: underline;
 
 }
@@ -115,38 +115,7 @@ text-transform: uppercase;
 cursor: pointer;
 transition: 1.5s;
 }
-.button4 {
-color: rgb(89, 240, 51);
-border-radius: 30px;
-line-height: 3;
-border: 1px solid rgb(89, 240, 51);
-padding: 5px;
-margin: 10px;
-position: relative;
-text-align: center;
-width: 20px;
-padding: 5px;
-margin: 10px;
-text-transform: uppercase;
-cursor: pointer;
-transition: 1.5s;
-}
-.button5 {
-color: rgb(238, 14, 126);
-border-radius: 30px;
-line-height: 3;
-border: 1px solid rgb(238, 14, 126);
-padding: 5px;
-margin: 10px;
-position: relative;
-text-align: center;
-width: 20px;
-padding: 5px;
-margin: 10px;
-text-transform: uppercase;
-cursor: pointer;
-transition: 1.5s;
-}
+
 #clickable {
 color: rgb(158, 0, 250);
 border-radius: 30px;
