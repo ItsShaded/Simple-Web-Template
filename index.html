@@ -17,27 +17,73 @@
 <title>Shaded</title>
 </head>
 <body>
-   <h1> Hello, My Name Is <span class="note"> Shaded </span></h1>
+   <h1>   <label id="lblGreetings"></label>
+      <script>
+         var myDate = new Date();
+         var hrs = myDate.getHours();
+      
+         var greet;
+      
+         if (hrs < 12)
+             greet = 'Good Morning';
+         else if (hrs >= 12 && hrs <= 17)
+             greet = 'Good Afternoon';
+         else if (hrs >= 17 && hrs <= 24)
+             greet = 'Good Evening';
+      
+         document.getElementById('lblGreetings').innerHTML =
+             '<b>' + greet + '</b>! I am known as';
+      </script> <span class="note">Shaded</span>.</h1>
    <span class="container3" id="clickable2" onclick="location.href='https://bio.link/shaded';">Social Media</span>
+   
    <div class="container">
-      <img id="pfp" src="https://avatars.githubusercontent.com/u/72438879?v=4" alt="pfp" width="120px">
-   <p> > I'm 16 years old. </p>
-   <p> > I'm A Discord Bot Developer Whos Currently Studying To Become A Full Frontend Developer </p>
+   <img id="pfp" src="https://avatars.githubusercontent.com/u/72438879?v=4" alt="pfp" width="120px">
+   <p> > I'm 16 Years Old. </p>
+   <p> > I'm A Discord Bot Developer Who's Currently Studying To Become A Full Frontend Developer </p>
+   <p> > I Sometimes Also Do Video Editing </p>
    <p> > Languages I'm Currently Learning Are: </p>
-      <span class= "button" onclick="location.href='https://devdocs.io/javascript';">JAVASCRIPT</span>
-      <span class= "button2"onclick="location.href='https://developer.mozilla.org/en-US/docs/Web/HTML';">HTML</span>
-      <span class= "button3"onclick="location.href='https://devdocs.io/css/';">CSS</span>
+   <span class= "button" onclick="location.href='https://devdocs.io/javascript';">JAVASCRIPT</span>
+   <span class= "button2"onclick="location.href='https://developer.mozilla.org/en-US/docs/Web/HTML';">HTML</span>
+   <span class= "button3"onclick="location.href='https://devdocs.io/css/';">CSS</span>
+   <span class="button4" onclick="location.href='https://devdocs.io/typescript/';">TYPESCRIPT</span>
    </div>
-   <div class="heading">
-   </style>
+ 
    <a href="https://top.gg/bot/763749665874772008">
-     <img id="none" src="https://top.gg/api/widget/763749665874772008.svg" alt="none" width="250px"/>
+   <img id="none" src="https://top.gg/api/widget/763749665874772008.svg" alt="none" width="250px"/>
    </a>
-      <h1 class="title">It's time to use Miku!</h1>
-      <p class="subtitle"> Miku is a AI Chatbot made in Javascript with the help of  Smartbot API. The bot is always online and is really reliable if you want to chill and talk to someone! Having Miku on your server, you won't feel lonely and it will make the chat active.  
-      </p>
-      <span class="container2" id="clickable" onclick="location.href='https://discord.com/oauth2/authorize?client_id=763749665874772008&permissions=414464445440&scope=bot%20applications.commands';">Invite Miku</span>
-  </div>
+
+   <h1 class="title">My Discord Bot:</h1>
+   <div class="container">
+   <h2 class="title"> Miku </h2>
+   <p class="subtitle"> Miku is a AI Chatbot made in Javascript with the help of  Smartbot API. The bot is always online and is really reliable if you want to chill and talk to someone! Having Miku on your server will never make you feel lonely and it'll keep you entertained.
+   </p></div>
+
+<main>
+<article>
+<h2>✨<u>Features</u>:</h2>
+<p class="subtitle"><li> <strong> Human memory </strong> : The bot remembers most of the stuff that you tell it forever, such as your name, date, age etc. 
+<p> <li> <strong> Inline Replies</strong> : With the new inline reply function on Discord, the bot uses it to reply to your messages.
+<p> <li> <strong> Slash commands </strong> : You can use some slash commands with the bot as well [W.I.P.] 
+<p> <li> <strong> Smartbot API </strong> : With the help of Smartbot API the bot can answer to your logical & Geological questions.
+<p> <li> <strong> Calculations </strong> : You can even ask the bot to do calculations.
+<p> <li> <strong> Translate API </strong> : You can translate messages to different languages via the Translate API.
+<p> <li> <strong> Consistent Uptime </strong> : With the use of a new uptime method, the bot will barely ever go offline. </p> </ul>
+</article>
+</main>
+
+
+<main>
+<article>
+<h2>🌈<u>Setup</u>:</h2>
+<p class="subtitle"> <li>Give the bot the required permissions.
+<p> <li>Create a channel called <strong> "mikuchat" </strong> or <strong> "miku", "🤖-miku-chat", "miku-chat", "mikuchat", "💭miku" </strong>.
+<p> <li>There you have it, the bot is setup! Now you've to just send messages in that channel!</p>
+</main>
+
+<span class="container2" id="clickable" onclick="location.href='https://discord.com/oauth2/authorize?client_id=763749665874772008&permissions=414464445440&scope=bot%20applications.commands';">Invite Miku</span>
+</align></div>
+
+
 </div class="footer">
 <h1 class="footer">Website Designed By why#4148 [Shaded]</h1>
 </div>
