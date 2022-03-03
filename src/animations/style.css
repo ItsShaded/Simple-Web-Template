@@ -9,10 +9,11 @@ text-decoration: none;
 -moz-osx-font-smoothing: grayscale;
 text-rendering: optimizeLegibility;
 line-height: 23px;
-margin-top: 50px;
+font-family: Courier;
+margin-top: 50px; 
 }
 body::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 #pfp {
     border-radius: 100%;
@@ -36,6 +37,17 @@ padding: 30px;
 margin: 50px;
 background-color: rgb(81, 28, 226);
 }
+h2 {
+    text-align: center;
+    text-shadow: transparent;
+    border-radius: 10px;
+    color: rgb(252, 249, 249);
+    font-family: courier;
+    font-size: 300%;
+    position: relative;
+    border-left: 0px solid rgb(255, 255, 255);
+
+    }
 .container {
 font-family: 'Courier New', Courier, monospace;
 font-size: 150%;
@@ -60,12 +72,40 @@ padding: 10px;
 margin: 20px;
 background-color: #7015e7!important;
 }
+main{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+article {
+    background-color: rgb(26, 24, 26);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  article:last-child {
+    margin-bottom: 0;
+  }
+  article h3 {
+    margin: 10px 0 25px 0;
+  }
+  article p {
+    margin-top: 16px;
+    line-height: 24px;
+  }
 .title {
 line-height: 40px !important;
 margin-bottom: -4px !important;
 border-radius: 10px;
-font-size: 16px !important
+font-size: 30px !important;
+font-family: Courier
 }
+.title2 {
+    line-height: 40px !important;
+    margin-bottom: -4px !important;
+    border-radius: 10px;
+    font-size: 55px !important
+    }
 .subtitle {
 color: rgba(255, 255, 255, 0.994) !important;
 font-size: 15px !important;
@@ -87,7 +127,7 @@ cursor: pointer;
 transition: 1.5s;
 }
 .note {
-color: rgb(0, 247, 255);
+color: rgb(41, 134, 240);
 text-decoration: underline;
 }
 .button2 {
@@ -122,6 +162,22 @@ text-transform: uppercase;
 cursor: pointer;
 transition: 1.5s;
 }
+.button4 {
+    color: rgb(89, 240, 51);
+    border-radius: 10px;
+    line-height: 3;
+    border: 1px solid rgb(89, 240, 51);
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    width: 20px;
+    padding: 5px;
+    margin: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1.5s;
+    }
 #clickable {
 color: rgb(255, 0, 242);
 border-radius: 30px;
@@ -139,10 +195,10 @@ cursor: pointer;
 transition: 1.5s;
 }
 #clickable2 {
-    color: rgb(0, 250, 83);
+    color: rgb(233, 172, 114);
     border-radius: 30px;
     line-height: 4;
-    border: 1px solid rgb(10, 250, 83);
+    border: 1px solid rgb(233, 172, 114);
     padding: 5px;
     margin: 10px;
     position: relative;
@@ -166,15 +222,18 @@ box-shadow: 0 5px 30px 0 #fc9b5a inset,  0 5px 30px 0 #fc9b5a inset,
 .button3:hover {
 box-shadow: 0 5px 30px 0 #f7ee73 inset,  0 5px 30px 0 #f7ee73 inset, 
             0 5px 30px 0 #f7ee73 inset,  0 5px 30px 0 #f7ee73 inset; 
-
+        }
+.button4:hover {
+box-shadow: 0 5px 30px 0 #97f577 inset,  0 5px 30px 0 #97f577 inset, 
+            0 5px 30px 0 #97f577 inset,  0 5px 30px 0 #97f577 inset; 
 }
 #clickable:hover {
 box-shadow: 0 5px 30px 0 rgb(255, 0, 242) inset,  0 5px 30px 0 rgb(255, 0, 242) inset, 
             0 5px 30px 0 rgb(255, 0, 242) inset, 0 5px 30px 0 rgb(255, 0, 242) inset; 
  }
 #clickable2:hover {
-box-shadow: 0 5px 30px 0 rgb(10, 250, 83) inset,  0 5px 30px 0 rgb(10, 250, 83) inset, 
-            0 5px 30px 0 rgb(10, 250, 83) inset, 0 5px 30px 0 rgb(10, 250, 83) inset; 
+box-shadow: 0 5px 30px 0 rgb(233, 172, 114) inset,  0 5px 30px 0 rgb(233, 172, 114) inset, 
+            0 5px 30px 0 rgb(233, 172, 114) inset, 0 5px 30px 0 rgb(233, 172, 114) inset; 
 
 }
 .footer {
