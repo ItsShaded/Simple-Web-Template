@@ -1,23 +1,38 @@
+
 body {
-background: #1f1d1d;
-float: inline-start;
-position: inherit;
-text-align: center;
-color: white;
-text-decoration: none;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizeLegibility;
-line-height: 23px;
-font-family: Courier;
-margin-top: 50px; 
-}
-body::-webkit-scrollbar {
+    background: #1f1d1d;
+    float: inline-start;
+    position: inherit;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    line-height: 23px;
+    font-family: Courier;
+    margin-top: 50px; 
+    }    
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
+
+    body::-webkit-scrollbar {
     display: none;
 }
 #pfp {
     border-radius: 100%;
-}
+} 
 #none {
     margin: 30px;
 }
@@ -25,29 +40,29 @@ i {
     font-size: 100px;
 }
 h1 {
-text-align: center;
-text-shadow: transparent;
-border-radius: 10px;
-color: rgb(252, 249, 249);
-font-family: courier;
-font-size: 150%;
-position: relative;
-border-left: 0px solid rgb(255, 255, 255);
-padding: 30px;
-margin: 50px;
-background-color: rgb(81, 28, 226);
-}
-h2 {
     text-align: center;
     text-shadow: transparent;
     border-radius: 10px;
     color: rgb(252, 249, 249);
     font-family: courier;
-    font-size: 300%;
+    font-size: 150%;
     position: relative;
     border-left: 0px solid rgb(255, 255, 255);
-
+    padding: 30px;
+    margin: 50px;
+    background-color: rgb(79, 26, 224);
     }
+    h2 {
+        text-align: center;
+        text-shadow: transparent;
+        border-radius: 10px;
+        color: rgb(252, 249, 249);
+        font-family: courier;
+        font-size: 300%;
+        position: relative;
+        border-left: 0px solid rgb(255, 255, 255);
+    
+        }
 .container {
 font-family: 'Courier New', Courier, monospace;
 font-size: 150%;
@@ -65,12 +80,13 @@ font-size: 120%;
 top: 50%;
 }
 .heading h1{
-text-align: center;
-font-size: 15px !important;
-border: 1px inset #7015e7;
-padding: 10px;
-margin: 20px;
-background-color: #7015e7!important;
+    text-align: center;
+    font-size: 15px !important;
+    border: 1px inset #7015e7;
+    padding: 10px;
+    margin: 20px;
+    background-color: #7015e7!important;
+    
 }
 main{
     width: 90vw;
@@ -80,14 +96,14 @@ main{
 article {
     background-color: rgb(26, 24, 26);
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 5px;
   }
   article:last-child {
     margin-bottom: 0;
   }
   article h3 {
-    margin: 10px 0 25px 0;
+    margin: 10px 0 35px 0;
   }
   article p {
     margin-top: 16px;
@@ -108,10 +124,23 @@ font-family: Courier
     }
 .subtitle {
 color: rgba(255, 255, 255, 0.994) !important;
+text-align: center;
 font-size: 15px !important;
 border-radius: 10px;
 font-family: 'Courier New', Courier, monospace;
+display: flex;  
+flex-direction: row-reverse;
 }
+.subtitle2 {
+    color: rgba(255, 255, 255, 0.994) !important;
+    text-align: center;
+    font-size: 15px !important;
+    white-space: initial;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;  
+    flex-direction: row-reverse;
+    }
 .button {
 color: rgb(0, 255, 255);
 border-radius: 10px;
