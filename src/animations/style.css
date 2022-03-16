@@ -1,68 +1,66 @@
-
 body {
-    background: #1f1d1d;
-    float: inline-start;
-    position: inherit;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    line-height: 23px;
-    font-family: Courier;
-    margin-top: 50px; 
-    }    
+  background: #1f1d1d;
+  float: inline-start;
+  position: inherit;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  line-height: 23px;
+  font-family: Courier;
+  margin-top: 50px; 
+  }    
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
-    div.example {
-      font-size: 80px;
-    }
+  div.example {
+    font-size: 80px;
   }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
-    div.example {
-      font-size: 30px;
-    }
+}
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
   }
 
-    body::-webkit-scrollbar {
-    display: none;
+}
+  body::-webkit-scrollbar {
+  display: none;
 }
 #pfp {
-    border-radius: 100%;
+  border-radius: 100%;
 } 
 #none {
-    margin: 30px;
+  margin: 30px;
 }
 i {
-    font-size: 100px;
+  font-size: 100px;
 }
 h1 {
-    text-align: center;
-    text-shadow: transparent;
-    border-radius: 10px;
-    color: rgb(252, 249, 249);
-    font-family: courier;
-    font-size: 150%;
-    position: relative;
-    border-left: 0px solid rgb(255, 255, 255);
-    padding: 30px;
-    margin: 50px;
-    background-color: rgb(79, 26, 224);
-    }
-    h2 {
-        text-align: center;
-        text-shadow: transparent;
-        border-radius: 10px;
-        color: rgb(252, 249, 249);
-        font-family: courier;
-        font-size: 300%;
-        position: relative;
-        border-left: 0px solid rgb(255, 255, 255);
-    
-        }
+  text-align: center;
+  text-shadow: transparent;
+  border-radius: 25px;
+  color: rgb(252, 249, 249);
+  font-family: courier;
+  font-size: 150%;
+  position: relative;
+  border-left: 0px solid rgb(255, 255, 255);
+  padding: 30px;
+  margin: 50px;
+  background-color: rgb(79, 26, 224);
+  }
+  h2 {
+      text-align: center;
+      text-shadow: transparent;
+      border-radius: 25px;
+      color: rgb(252, 249, 249);
+      font-family: courier;
+      font-size: 300%;
+      position: relative;
+      border-left: 0px solid rgb(255, 255, 255);
+  
+      }
 .container {
 font-family: 'Courier New', Courier, monospace;
 font-size: 150%;
@@ -70,58 +68,64 @@ top: 50%;
 left: 50%;
 }
 .container2 {
- font-family: 'Courier New', Courier, monospace;
- font-size: 120%;
- top: 50%;
+font-family: 'Courier New', Courier, monospace;
+font-size: 120%;
+top: 50%;
 }
 .container3 {
 font-family: 'Courier New', Courier, monospace;
 font-size: 120%;
 top: 50%;
 }
+
+  /*heading*/ 
 .heading h1{
-    text-align: center;
-    font-size: 15px !important;
-    border: 1px inset #7015e7;
-    padding: 10px;
-    margin: 20px;
-    background-color: #7015e7!important;
-    
+  text-align: center;
+  font-size: 15px !important;
+  border: 1px inset #7015e7;
+  padding: 10px;
+  margin: 20px;
+  background-color: #7015e7!important;
+  
 }
 main{
-    width: 90vw;
-    margin: 0 auto;
-    padding: 30px 20px;
+  width: 90vw;
+  margin: 0 auto;
+  padding: 30px 20px;
 }
+
+  /*bot info area*/ 
 article {
-    background-color: rgb(26, 24, 26);
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-  }
-  article:last-child {
-    margin-bottom: 0;
-  }
-  article h3 {
-    margin: 10px 0 35px 0;
-  }
-  article p {
-    margin-top: 16px;
-    line-height: 24px;
-  }
+  background-color: rgb(26, 24, 26);
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+article:last-child {
+  margin-bottom: 0;
+}
+article h3 {
+  margin: 10px 0 35px 0;
+}
+article p {
+  margin-top: 16px;
+  line-height: 24px;
+}
+
+  /*text*/ 
 .title {
 line-height: 40px !important;
 margin-bottom: -4px !important;
-border-radius: 10px;
+border-radius: 25px;
 font-size: 30px !important;
 font-family: Courier
 }
 .title2 {
-    line-height: 40px !important;
-    margin-bottom: -4px !important;
-    border-radius: 10px;
-    font-size: 55px !important
-    }
+  line-height: 40px !important;
+  margin-bottom: -4px !important;
+  border-radius: 10px;
+  font-size: 55px !important
+  }
 .subtitle {
 color: rgba(255, 255, 255, 0.994) !important;
 text-align: center;
@@ -132,15 +136,17 @@ display: flex;
 flex-direction: row-reverse;
 }
 .subtitle2 {
-    color: rgba(255, 255, 255, 0.994) !important;
-    text-align: center;
-    font-size: 15px !important;
-    white-space: initial;
-    border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;  
-    flex-direction: row-reverse;
-    }
+  color: rgba(255, 255, 255, 0.994) !important;
+  text-align: center;
+  font-size: 15px !important;
+  white-space: initial;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;  
+  flex-direction: row-reverse;
+  }
+
+  /*button style*/ 
 .button {
 color: rgb(0, 255, 255);
 border-radius: 10px;
@@ -192,21 +198,23 @@ cursor: pointer;
 transition: 1.5s;
 }
 .button4 {
-    color: rgb(89, 240, 51);
-    border-radius: 10px;
-    line-height: 3;
-    border: 1px solid rgb(89, 240, 51);
-    padding: 5px;
-    margin: 10px;
-    position: relative;
-    text-align: center;
-    width: 20px;
-    padding: 5px;
-    margin: 10px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: 1.5s;
-    }
+  color: rgb(89, 240, 51);
+  border-radius: 10px;
+  line-height: 3;
+  border: 1px solid rgb(89, 240, 51);
+  padding: 5px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+  width: 20px;
+  padding: 5px;
+  margin: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 1.5s;
+  }
+
+  /*clickable button style*/ 
 #clickable {
 color: rgb(255, 0, 242);
 border-radius: 30px;
@@ -224,51 +232,55 @@ cursor: pointer;
 transition: 1.5s;
 }
 #clickable2 {
-    color: rgb(233, 172, 114);
-    border-radius: 30px;
-    line-height: 4;
-    border: 1px solid rgb(233, 172, 114);
-    padding: 5px;
-    margin: 10px;
-    position: relative;
-    text-align: center;
-    width: 20px;
-    padding: 5px;
-    margin: 10px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: 1.5s;
-    }
+  color: rgb(233, 172, 114);
+  border-radius: 30px;
+  line-height: 4;
+  border: 1px solid rgb(233, 172, 114);
+  padding: 5px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+  width: 20px;
+  padding: 5px;
+  margin: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 1.5s;
+  }
 
+  /*hover button style*/ 
 .button:hover {
 box-shadow: 0 5px 30px 0 #00e1ff inset,  0 5px 30px 0 #00e1ff inset, 
-            0 5px 30px 0 #00e1ff inset,  0 5px 30px 0 #00e1ff inset; 
+          0 5px 30px 0 #00e1ff inset,  0 5px 30px 0 #00e1ff inset; 
 }
 .button2:hover {
 box-shadow: 0 5px 30px 0 #fc9b5a inset,  0 5px 30px 0 #fc9b5a inset, 
-            0 5px 30px 0 #fc9b5a inset,  0 5px 30px 0 #fc9b5a inset; 
+          0 5px 30px 0 #fc9b5a inset,  0 5px 30px 0 #fc9b5a inset; 
 }
 .button3:hover {
 box-shadow: 0 5px 30px 0 #f7ee73 inset,  0 5px 30px 0 #f7ee73 inset, 
-            0 5px 30px 0 #f7ee73 inset,  0 5px 30px 0 #f7ee73 inset; 
-        }
+          0 5px 30px 0 #f7ee73 inset,  0 5px 30px 0 #f7ee73 inset; 
+      }
 .button4:hover {
 box-shadow: 0 5px 30px 0 #97f577 inset,  0 5px 30px 0 #97f577 inset, 
-            0 5px 30px 0 #97f577 inset,  0 5px 30px 0 #97f577 inset; 
+          0 5px 30px 0 #97f577 inset,  0 5px 30px 0 #97f577 inset; 
 }
 #clickable:hover {
 box-shadow: 0 5px 30px 0 rgb(255, 0, 242) inset,  0 5px 30px 0 rgb(255, 0, 242) inset, 
-            0 5px 30px 0 rgb(255, 0, 242) inset, 0 5px 30px 0 rgb(255, 0, 242) inset; 
- }
+          0 5px 30px 0 rgb(255, 0, 242) inset, 0 5px 30px 0 rgb(255, 0, 242) inset; 
+}
 #clickable2:hover {
 box-shadow: 0 5px 30px 0 rgb(233, 172, 114) inset,  0 5px 30px 0 rgb(233, 172, 114) inset, 
-            0 5px 30px 0 rgb(233, 172, 114) inset, 0 5px 30px 0 rgb(233, 172, 114) inset; 
+          0 5px 30px 0 rgb(233, 172, 114) inset, 0 5px 30px 0 rgb(233, 172, 114) inset; 
 
 }
+
+  /*footer*/
+
 .footer {
 color: white;
 font-family: 'Courier New', Courier, monospace;
-border-radius: 10px;
+border-radius: 25px;
 font-size: 120%;
 position: relative;
 }
