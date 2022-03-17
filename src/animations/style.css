@@ -86,7 +86,8 @@ top: 50%;
   padding: 10px;
   margin: 20px;
   background-color: #7015e7!important;
-  
+ 
+  /*the main box for text*/
 }
 main{
   width: 90vw;
@@ -99,7 +100,7 @@ article {
   background-color: rgb(26, 24, 26);
   padding: 20px;
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 25px;
 }
 article:last-child {
   margin-bottom: 0;
@@ -112,7 +113,7 @@ article p {
   line-height: 24px;
 }
 
-  /*text*/ 
+  /*miku text*/ 
 .title {
 line-height: 40px !important;
 margin-bottom: -4px !important;
@@ -126,11 +127,13 @@ font-family: Courier
   border-radius: 10px;
   font-size: 55px !important
   }
+
+/*the features and box text*/
 .subtitle {
 color: rgba(255, 255, 255, 0.994) !important;
 text-align: center;
 font-size: 15px !important;
-border-radius: 10px;
+border-radius: 25px;
 font-family: 'Courier New', Courier, monospace;
 display: flex;  
 flex-direction: row-reverse;
@@ -140,7 +143,7 @@ flex-direction: row-reverse;
   text-align: center;
   font-size: 15px !important;
   white-space: initial;
-  border-radius: 10px;
+  border-radius: 25px;
   font-family: 'Courier New', Courier, monospace;
   display: flex;  
   flex-direction: row-reverse;
@@ -338,5 +341,4 @@ position: relative;
 .column:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
-}
+  t
