@@ -9,9 +9,8 @@
 
 ## About
 
-This was thrown together in a single day to replace my previous personal
-website. I just list some general info about myself here, and refer to some
-of my projects.
+This was made in 3 days to replace my previous personal
+website. I have listen some of my info and about my projects.
 
 ## License
 
