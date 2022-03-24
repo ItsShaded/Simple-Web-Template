@@ -18,7 +18,8 @@ The code is released under the [MIT](https://github.com/ItsShaded/shaded_website
 license, while the rights to any art assets from 3rd parties belong to
 their respective owners.
 
-## Link to the website: https://shaded.netlify.app/
+## Link to the website:
+https://shaded.netlify.app/
 
-**Designed and created by why#4148 [Shaded]**
+<br>
 [Please don't mind the long ass CSS lmao, ik its bad but I am still learning]
