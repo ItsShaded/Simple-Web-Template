@@ -9,7 +9,7 @@
 
 ## About
 
-This website was made in 2 days. I have listed some of my info and about my projects.
+This website was made in 1 day. I have listed some of my info and about my projects.
 
 ## License
 
