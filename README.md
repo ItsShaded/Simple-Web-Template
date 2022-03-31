@@ -19,3 +19,4 @@ their respective owners.
 
 <br>
 [Please don't mind the long ass CSS lmao, ik its bad but I am still learning]
+Inspired from - { Import } Async#7376
